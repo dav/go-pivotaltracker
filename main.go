@@ -1,11 +1,12 @@
 package main
 
 import (
-	"./v5/pivotal"
 	"fmt"
 	"os"
 	"strconv"
 	"unicode/utf8"
+
+	"github.com/dav/go-pivotaltracker/v5/pivotal"
 )
 
 func doDumpPeople(client *pivotal.Client) error {
